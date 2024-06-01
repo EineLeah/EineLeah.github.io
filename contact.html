@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nether Esports - Contact</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .header-image {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      filter: brightness(0.8);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .container {
+      position: absolute;
+      right: 7cm;
+      top: 1cm;
+      font-size: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .Logo {
+      position: absolute;
+      left: 2cm;
+      top: 1cm;
+    }
+
+    .menu-link {
+      color: white;
+      text-decoration: none;
+      margin-left: 1cm;
+    }
+
+    .menu-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Style for the active page link */
+    .menu-link.active {
+      text-decoration: underline;
+    }
+
+    /* Contact content */
+    .contact-info {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+    }
+
+    .contact-info h2 {
+      margin-top: 0;
+    }
+
+    .contact-info p {
+      font-size: 26px;
+    }
+
+    .contact-links {
+      margin-top: 20px;
+    }
+
+    .contact-link {
+      display: inline-block;
+      margin-right: 20px;
+      font-size: 26px;
+      color: white;
+      text-decoration: underline;
+    }
+
+    .contact-link:hover {
+      text-decoration: underline;
+    }
+
+    .contact-link:last-child {
+      margin-right: 0;
+    }
+    .title{ 
+        position: absolute;
+      top: 20%;
+      left: 51%;
+      transform: translateX(-50%);
+      font-size: 36px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <img class="header-image" src="/img/stock-photo-abstract-texture-white-orange-swirls-paint.jpg">
+  <div class="container">
+
+    <div>
+      <a class="menu-link" href="index.html">Home</a>
+      <a class="menu-link" href="Team.html">Teams</a>
+      <a class="menu-link active" href="Contact.html">Contact</a>
+      <a class="menu-link" href="About.html">About</a>
+    </div>
+
+  </div>
+
+  <img class="Logo" src="img/Nether (2).png">
+
+  <div class="contact-info">
+    <p>Kontaktiere uns bei Business Anfragen über <a class="contact-link" href="mailto:Contact.NetherEsports@proton.me">Contact.NetherEsports@proton.me</a> <p>
+        <p>oder Komm auf unseren <a class="contact-link" href="https://discord.gg/XwgRArBGQQ">Discord</a>.</p>
+  </div>
+
+  <p class="title">Contact Us</p>
+</body>
+</html>
